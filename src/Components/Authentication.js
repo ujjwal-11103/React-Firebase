@@ -23,7 +23,8 @@ export default function Authentication() {
             .then((userCredential) => {
                 // Signed up 
                 const user = userCredential.user;
-                console.log(user);
+                console.log(user.email);
+                console.log(user.password);
                 alert("Successfully Registered !")
                 // ...
             })
