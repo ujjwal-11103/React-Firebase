@@ -7,8 +7,8 @@ export default function App() {
   return (
     <div>
       {/* <Authentication /> */}
-      {/* <Sign_in /> */}
-      <AuthWithGoogle />
+      <Sign_in />
+      {/* <AuthWithGoogle /> */}
     </div>
   )
 }
