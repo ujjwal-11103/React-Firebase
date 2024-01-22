@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react'
-import { app } from '../Firebase'
+import { app } from '../Firebase';
 import { getAuth, signInWithEmailAndPassword, signOut } from "firebase/auth";
 
 export default function Sign_in() {
